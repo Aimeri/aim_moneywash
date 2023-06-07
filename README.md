@@ -5,7 +5,7 @@ By default this will display that Dirty Money has been removed, but will not dis
 
 	["cleanmoney"]                   = {["name"] = "cleanmoney",                    ["label"] = "Clean Money",              ["weight"] = 0,         ["type"] = "item",      ["image"] = "cleanmoney.png",           ["unique"] = false,		["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Nice clean money!"},
 
-Then go into aim_moneywash/server/main.lua and uncomment line 10:
+Then go into aim_moneywash/server/main.lua and uncomment line 10:<br />
         --TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items['cleanmoney'], "add")
         
 Then add the image inside of aim_moneywash/images to your resources/[qb]/qb-inventory/html/images folder.
