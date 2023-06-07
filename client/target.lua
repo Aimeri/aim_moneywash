@@ -10,7 +10,7 @@ exports['qb-target']:AddBoxZone("washMoney", WashMoney.targetZone, 5.0, 1.4, {
 		options = {
 			{
 				event = "aim:startmoneywashing",
-                icon = Config.TargetIcon,
+                		icon = Config.TargetIcon,
 				label = "Wash Money",
 			},
 		},
